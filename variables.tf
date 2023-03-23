@@ -15,7 +15,7 @@ variable "region" {
 variable "s3_bucket_name" {
   type        = string
   description = "s3 Bucket name for cloudtrail"
-  default     = "amcp-prod-cloudtrailbucket"
+  default     = "prod-cloudtrailbucket"
 }
 
 variable "bucket_acl" {
@@ -39,5 +39,5 @@ variable "noncurrent_version_exp_days" {
 variable "cloudtrail_name" {
   type        = string
   description = "cloudtrail service name"
-  default     = "amcp-prod-cloudtrail"
+  default     = "prod-cloudtrail"
 }
